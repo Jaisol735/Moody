@@ -1,0 +1,67 @@
+/* Navigation Bar Container */
+.nav-container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #4b0082, #8a2be2, #00bfff);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  
+  /* Navigation Content */
+  .nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Brand Name */
+  .nav-brand span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  /* Individual Nav Item */
+  .nav-link {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  /* Active Link */
+  .nav-link.active {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Hover Effect */
+  .nav-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+  }
+  
+  /* Icon Styling */
+  .nav-icon {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+  }
+  
